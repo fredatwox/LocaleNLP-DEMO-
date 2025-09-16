@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- Custom global styles --- */
+
+/* Background with overlay */
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* same as text-white */
+  background: url("/src/assets/istockphoto-1222563470-612x612.jpg") no-repeat
+    center center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 0;
+}
+
+/* Root container */
+#root {
+  position: relative;
+  z-index: 10;
+  max-width: 48rem; /* ~max-w-3xl */
+  width: 100%;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+.logo {
+  margin: 0 auto 1.5rem;
+  height: 6rem;
+  width: 6rem;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.6));
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+/* Headings */
+h1 {
+  font-size: 1.875rem; /* ~text-3xl */
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: white;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+p {
+  font-size: 1.125rem; /* ~text-lg */
+  color: #e5e7eb; /* ~text-gray-200 */
+}

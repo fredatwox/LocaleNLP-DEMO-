@@ -1,0 +1,7 @@
+{
+  "appTitle": "Translate & Transcribe",
+  "enterText": "Type text here...",
+  "submit": "Translate",
+  "uploadFile": "Upload audio file (mp3/wav)",
+  "outputPlaceholder": "Your translation will appear here"
+}
