@@ -1,1 +1,33 @@
 # LocaleNLP-DEMO-
+
+# 🌍 LocaleNLP Translator
+
+An interactive text translation and (future) transcription app designed to break language barriers.  
+Built with **React (frontend)** + **Node.js/Express (backend)** + **TailwindCSS**.  
+Recent translations are cached locally so you can revisit them even offline.
+
+---
+
+## 🚀 Tech Stack
+
+**Frontend**
+- React + Vite
+- TailwindCSS
+- i18next (localization support)
+- Axios (API calls)
+- LocalStorage (recent history)
+
+**Backend**
+- Node.js + Express
+- Translation API integration (e.g., [LibreTranslate](https://libretranslate.com/) or Google Translate)
+- CORS enabled for frontend communication
+
+---
+
+## ⚙️ Running the Project Locally
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/fredatwox/locale-NLP-DEMO-.git
+cd localenlp-demo
+
