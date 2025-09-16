@@ -31,3 +31,26 @@ Recent translations are cached locally so you can revisit them even offline.
 git clone https://github.com/fredatwox/locale-NLP-DEMO-.git
 cd localenlp-demo
 
+
+
+⚡ Known Limitations
+
+Currently supports text translation only.
+
+Requires a valid API key for external translation API.
+
+No database persistence → everything is handled in-memory.
+
+
+🚧 Future Extensions
+
+Integrate speech-to-text using OpenAI Whisper
+ or Google Speech API.
+
+Add authentication so users can save translation history across devices.
+
+Extend support for more African languages and domain-specific dictionaries.
+
+Improve caching with IndexedDB or a backend database (MongoDB/Postgres).
+
+Deploy backend + frontend together on Render, Railway, or Heroku.
